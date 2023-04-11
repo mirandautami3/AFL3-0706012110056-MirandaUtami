@@ -14,6 +14,7 @@
 		9F991B7829E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B7729E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiTests.swift */; };
 		9F991B8229E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B8129E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiUITests.swift */; };
 		9F991B8429E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B8329E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiUITestsLaunchTests.swift */; };
+		9F991B9129E4F75F0084EFFF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B9029E4F75F0084EFFF /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9F991B7D29E4F0150084EFFF /* AFL3-0706012110056-MirandaUtamiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-0706012110056-MirandaUtamiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F991B8129E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110056_MirandaUtamiUITests.swift; sourceTree = "<group>"; };
 		9F991B8329E4F0150084EFFF /* AFL3_0706012110056_MirandaUtamiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110056_MirandaUtamiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F991B9029E4F75F0084EFFF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */,
 				9F991B6829E4F0130084EFFF /* ContentView.swift */,
 				9F991B6A29E4F0150084EFFF /* Assets.xcassets */,
+				9F991B9029E4F75F0084EFFF /* CircleImage.swift */,
 				9F991B6C29E4F0150084EFFF /* Preview Content */,
 			);
 			path = "AFL3-0706012110056-MirandaUtami";
@@ -259,6 +262,7 @@
 			files = (
 				9F991B6929E4F0130084EFFF /* ContentView.swift in Sources */,
 				9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */,
+				9F991B9129E4F75F0084EFFF /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
