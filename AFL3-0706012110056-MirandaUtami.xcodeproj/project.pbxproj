@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F54C1DA29E8E1390090A06E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F54C1D929E8E1380090A06E /* landmarkData.json */; };
+		9F54C1DC29E8E1AC0090A06E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1DB29E8E1AC0090A06E /* Landmark.swift */; };
+		9F54C1DE29E8E4A40090A06E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1DD29E8E4A40090A06E /* ModelData.swift */; };
 		9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */; };
 		9F991B6929E4F0130084EFFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B6829E4F0130084EFFF /* ContentView.swift */; };
 		9F991B6B29E4F0150084EFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F991B6A29E4F0150084EFFF /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F54C1D929E8E1380090A06E /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		9F54C1DB29E8E1AC0090A06E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		9F54C1DD29E8E4A40090A06E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		9F991B6329E4F0130084EFFF /* AFL3-0706012110056-MirandaUtami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110056-MirandaUtami.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110056_MirandaUtamiApp.swift; sourceTree = "<group>"; };
 		9F991B6829E4F0130084EFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F54C1DF29E8E4F80090A06E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F991B9229E4F95A0084EFFF /* MapView.swift */,
+				9F991B9029E4F75F0084EFFF /* CircleImage.swift */,
+				9F991B6829E4F0130084EFFF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F54C1E129E8E57D0090A06E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F54C1DD29E8E4A40090A06E /* ModelData.swift */,
+				9F54C1DB29E8E1AC0090A06E /* Landmark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F54C1E229E8E5A20090A06E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F54C1D929E8E1380090A06E /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9F991B5A29E4F0130084EFFF = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */,
-				9F991B6829E4F0130084EFFF /* ContentView.swift */,
+				9F54C1E229E8E5A20090A06E /* Resources */,
+				9F54C1E129E8E57D0090A06E /* Model */,
+				9F54C1DF29E8E4F80090A06E /* Views */,
 				9F991B6A29E4F0150084EFFF /* Assets.xcassets */,
-				9F991B9029E4F75F0084EFFF /* CircleImage.swift */,
-				9F991B9229E4F95A0084EFFF /* MapView.swift */,
 				9F991B6C29E4F0150084EFFF /* Preview Content */,
 			);
 			path = "AFL3-0706012110056-MirandaUtami";
@@ -239,6 +272,7 @@
 			files = (
 				9F991B6E29E4F0150084EFFF /* Preview Assets.xcassets in Resources */,
 				9F991B6B29E4F0150084EFFF /* Assets.xcassets in Resources */,
+				9F54C1DA29E8E1390090A06E /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +301,8 @@
 				9F991B9329E4F95A0084EFFF /* MapView.swift in Sources */,
 				9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */,
 				9F991B9129E4F75F0084EFFF /* CircleImage.swift in Sources */,
+				9F54C1DC29E8E1AC0090A06E /* Landmark.swift in Sources */,
+				9F54C1DE29E8E4A40090A06E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
