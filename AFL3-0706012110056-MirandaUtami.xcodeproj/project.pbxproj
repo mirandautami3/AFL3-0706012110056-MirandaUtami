@@ -13,6 +13,7 @@
 		9F54C1E429E8E6AC0090A06E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1E329E8E6AC0090A06E /* LandmarkRow.swift */; };
 		9F54C1E629E8E9A30090A06E /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1E529E8E9A30090A06E /* LandmarkList.swift */; };
 		9F54C1E829E8EAC90090A06E /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1E729E8EAC90090A06E /* LandmarkDetail.swift */; };
+		9F54C1EA29E8F4A00090A06E /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1E929E8F4A00090A06E /* FavoriteButton.swift */; };
 		9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */; };
 		9F991B6929E4F0130084EFFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B6829E4F0130084EFFF /* ContentView.swift */; };
 		9F991B6B29E4F0150084EFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F991B6A29E4F0150084EFFF /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		9F54C1E329E8E6AC0090A06E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		9F54C1E529E8E9A30090A06E /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		9F54C1E729E8EAC90090A06E /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		9F54C1E929E8F4A00090A06E /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		9F991B6329E4F0130084EFFF /* AFL3-0706012110056-MirandaUtami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110056-MirandaUtami.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110056_MirandaUtamiApp.swift; sourceTree = "<group>"; };
 		9F991B6829E4F0130084EFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,12 +92,7 @@
 		9F54C1DF29E8E4F80090A06E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9F991B9229E4F95A0084EFFF /* MapView.swift */,
-				9F991B9029E4F75F0084EFFF /* CircleImage.swift */,
 				9F991B6829E4F0130084EFFF /* ContentView.swift */,
-				9F54C1E329E8E6AC0090A06E /* LandmarkRow.swift */,
-				9F54C1E529E8E9A30090A06E /* LandmarkList.swift */,
-				9F54C1E729E8EAC90090A06E /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -115,6 +112,26 @@
 				9F54C1D929E8E1380090A06E /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F54C1EB29E8F5010090A06E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F991B9229E4F95A0084EFFF /* MapView.swift */,
+				9F54C1E929E8F4A00090A06E /* FavoriteButton.swift */,
+				9F991B9029E4F75F0084EFFF /* CircleImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9F54C1EC29E8F5650090A06E /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				9F54C1E329E8E6AC0090A06E /* LandmarkRow.swift */,
+				9F54C1E529E8E9A30090A06E /* LandmarkList.swift */,
+				9F54C1E729E8EAC90090A06E /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		9F991B5A29E4F0130084EFFF = {
@@ -141,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */,
+				9F54C1EC29E8F5650090A06E /* Landmarks */,
+				9F54C1EB29E8F5010090A06E /* Helpers */,
 				9F54C1E229E8E5A20090A06E /* Resources */,
 				9F54C1E129E8E57D0090A06E /* Model */,
 				9F54C1DF29E8E4F80090A06E /* Views */,
@@ -309,6 +328,7 @@
 				9F991B6929E4F0130084EFFF /* ContentView.swift in Sources */,
 				9F991B9329E4F95A0084EFFF /* MapView.swift in Sources */,
 				9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */,
+				9F54C1EA29E8F4A00090A06E /* FavoriteButton.swift in Sources */,
 				9F54C1E629E8E9A30090A06E /* LandmarkList.swift in Sources */,
 				9F54C1E829E8EAC90090A06E /* LandmarkDetail.swift in Sources */,
 				9F991B9129E4F75F0084EFFF /* CircleImage.swift in Sources */,
