@@ -14,8 +14,11 @@
 		9F54C1E629E8E9A30090A06E /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1E529E8E9A30090A06E /* LandmarkList.swift */; };
 		9F54C1E829E8EAC90090A06E /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1E729E8EAC90090A06E /* LandmarkDetail.swift */; };
 		9F54C1EA29E8F4A00090A06E /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1E929E8F4A00090A06E /* FavoriteButton.swift */; };
-		9F54C1EE29E8F73B0090A06E /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1ED29E8F73B0090A06E /* HexagonParameters.swift */; };
-		9F54C1F029E8F84A0090A06E /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1EF29E8F84A0090A06E /* BadgeBackground.swift */; };
+		9F54C1F929E8FC820090A06E /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1F429E8FC820090A06E /* RotatedBadgeSymbol.swift */; };
+		9F54C1FA29E8FC820090A06E /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1F529E8FC820090A06E /* HexagonParameters.swift */; };
+		9F54C1FB29E8FC820090A06E /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1F629E8FC820090A06E /* BadgeSymbol.swift */; };
+		9F54C1FC29E8FC820090A06E /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1F729E8FC820090A06E /* BadgeBackground.swift */; };
+		9F54C1FD29E8FC820090A06E /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54C1F829E8FC820090A06E /* Badge.swift */; };
 		9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */; };
 		9F991B6929E4F0130084EFFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F991B6829E4F0130084EFFF /* ContentView.swift */; };
 		9F991B6B29E4F0150084EFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F991B6A29E4F0150084EFFF /* Assets.xcassets */; };
@@ -52,8 +55,11 @@
 		9F54C1E529E8E9A30090A06E /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		9F54C1E729E8EAC90090A06E /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		9F54C1E929E8F4A00090A06E /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		9F54C1ED29E8F73B0090A06E /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
-		9F54C1EF29E8F84A0090A06E /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		9F54C1F429E8FC820090A06E /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		9F54C1F529E8FC820090A06E /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		9F54C1F629E8FC820090A06E /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		9F54C1F729E8FC820090A06E /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		9F54C1F829E8FC820090A06E /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		9F991B6329E4F0130084EFFF /* AFL3-0706012110056-MirandaUtami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110056-MirandaUtami.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110056_MirandaUtamiApp.swift; sourceTree = "<group>"; };
 		9F991B6829E4F0130084EFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				9F991B6829E4F0130084EFFF /* ContentView.swift */,
+				9F54C1F329E8FC820090A06E /* Badges */,
+				9F54C1EB29E8F5010090A06E /* Helpers */,
+				9F54C1EC29E8F5650090A06E /* Landmarks */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +147,18 @@
 			path = Landmarks;
 			sourceTree = "<group>";
 		};
+		9F54C1F329E8FC820090A06E /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				9F54C1F429E8FC820090A06E /* RotatedBadgeSymbol.swift */,
+				9F54C1F529E8FC820090A06E /* HexagonParameters.swift */,
+				9F54C1F629E8FC820090A06E /* BadgeSymbol.swift */,
+				9F54C1F729E8FC820090A06E /* BadgeBackground.swift */,
+				9F54C1F829E8FC820090A06E /* Badge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		9F991B5A29E4F0130084EFFF = {
 			isa = PBXGroup;
 			children = (
@@ -162,10 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				9F991B6629E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift */,
-				9F54C1EF29E8F84A0090A06E /* BadgeBackground.swift */,
-				9F54C1ED29E8F73B0090A06E /* HexagonParameters.swift */,
-				9F54C1EC29E8F5650090A06E /* Landmarks */,
-				9F54C1EB29E8F5010090A06E /* Helpers */,
 				9F54C1E229E8E5A20090A06E /* Resources */,
 				9F54C1E129E8E57D0090A06E /* Model */,
 				9F54C1DF29E8E4F80090A06E /* Views */,
@@ -331,18 +348,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F54C1FA29E8FC820090A06E /* HexagonParameters.swift in Sources */,
 				9F991B6929E4F0130084EFFF /* ContentView.swift in Sources */,
 				9F991B9329E4F95A0084EFFF /* MapView.swift in Sources */,
 				9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */,
 				9F54C1EA29E8F4A00090A06E /* FavoriteButton.swift in Sources */,
-				9F54C1EE29E8F73B0090A06E /* HexagonParameters.swift in Sources */,
+				9F54C1FB29E8FC820090A06E /* BadgeSymbol.swift in Sources */,
+				9F54C1FD29E8FC820090A06E /* Badge.swift in Sources */,
+				9F54C1F929E8FC820090A06E /* RotatedBadgeSymbol.swift in Sources */,
 				9F54C1E629E8E9A30090A06E /* LandmarkList.swift in Sources */,
 				9F54C1E829E8EAC90090A06E /* LandmarkDetail.swift in Sources */,
-				9F54C1F029E8F84A0090A06E /* BadgeBackground.swift in Sources */,
 				9F991B9129E4F75F0084EFFF /* CircleImage.swift in Sources */,
 				9F54C1DC29E8E1AC0090A06E /* Landmark.swift in Sources */,
 				9F54C1E429E8E6AC0090A06E /* LandmarkRow.swift in Sources */,
 				9F54C1DE29E8E4A40090A06E /* ModelData.swift in Sources */,
+				9F54C1FC29E8FC820090A06E /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
