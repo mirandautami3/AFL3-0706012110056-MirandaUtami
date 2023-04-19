@@ -34,7 +34,7 @@ struct GraphCapsule_Previews: PreviewProvider {
     static var previews: some View {
         GraphCapsule(
             index: 0,
-            color: .blue,
+            color: .pink,
             height: 150,
             range: 10..<50,
             overallRange: 0..<100)

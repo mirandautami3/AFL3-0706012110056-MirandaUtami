@@ -33,9 +33,10 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
+            }
         }
     }
-}
+
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
@@ -43,3 +44,15 @@ struct LandmarkList_Previews: PreviewProvider {
             .environmentObject(ModelData())
     }
 }
+
+
+//NavigationStack{
+//    List(landmarks){ landmark in
+//        NavigationLink{
+//            LandmarkDetail(landmark: <#T##Landmark#>)
+//        }label: {
+//            LandmarkRow(landmark: <#T##Landmark#>)
+//        }
+//    }
+//
+//    .navigationTitle("Landmarks")
