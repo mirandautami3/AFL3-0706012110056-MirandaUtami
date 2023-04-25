@@ -45,6 +45,7 @@
 		9FBBE05F29F16D60000BED8E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBE05E29F16D60000BED8E /* PageViewController.swift */; };
 		9FBBE06129F16EF8000BED8E /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBE06029F16EF8000BED8E /* FeatureCard.swift */; };
 		9FBBE06329F199AA000BED8E /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBE06229F199AA000BED8E /* PageView.swift */; };
+		9FBBE06529F84108000BED8E /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBE06429F84108000BED8E /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		9FBBE05E29F16D60000BED8E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		9FBBE06029F16EF8000BED8E /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		9FBBE06229F199AA000BED8E /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		9FBBE06429F84108000BED8E /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +298,7 @@
 				9FBBE05E29F16D60000BED8E /* PageViewController.swift */,
 				9FBBE06029F16EF8000BED8E /* FeatureCard.swift */,
 				9FBBE06229F199AA000BED8E /* PageView.swift */,
+				9FBBE06429F84108000BED8E /* PageControl.swift */,
 			);
 			path = pageview;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				9F991B9329E4F95A0084EFFF /* MapView.swift in Sources */,
 				9F54C21029E903210090A06E /* GraphCapsule.swift in Sources */,
 				9F991B6729E4F0130084EFFF /* AFL3_0706012110056_MirandaUtamiApp.swift in Sources */,
+				9FBBE06529F84108000BED8E /* PageControl.swift in Sources */,
 				9F54C1EA29E8F4A00090A06E /* FavoriteButton.swift in Sources */,
 				9FA97EDD29F12BB4007136CA /* CategoryItem.swift in Sources */,
 				9F54C21229E903210090A06E /* HikeDetail.swift in Sources */,
