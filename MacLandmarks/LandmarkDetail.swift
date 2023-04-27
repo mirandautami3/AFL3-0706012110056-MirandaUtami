@@ -1,9 +1,9 @@
-//
-//  LandmarkDetail.swift
-//  MacLandmarks
-//
-//  Created by miranda on 27/04/23.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing the details for a landmark.
+*/
 
 import SwiftUI
 import MapKit
@@ -68,11 +68,9 @@ struct LandmarkDetail: View {
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
-    static let modelData = ModelData()
-
     static var previews: some View {
-        LandmarkDetail(landmark: modelData.landmarks[0])
+        let modelData = ModelData()
+        return LandmarkDetail(landmark: modelData.landmarks[0])
             .environmentObject(modelData)
-            .frame(width: 850, height: 700)
     }
 }

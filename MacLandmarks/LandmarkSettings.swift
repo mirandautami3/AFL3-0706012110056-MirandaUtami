@@ -1,9 +1,9 @@
-//
-//  LandmarkSettings.swift
-//  AFL3-0706012110056-MirandaUtami
-//
-//  Created by miranda on 27/04/23.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+The settings view for the app.
+*/
 
 import SwiftUI
 
